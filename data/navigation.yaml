@@ -1,91 +1,31 @@
-# Genesis Biotech — Site Navigation
-# 整站導航的「單一事實來源」。
-# 要新增 / 改名 / 重新排序選單？只改這裡。
-#
-# 結構：扁平（所有頁面在 content/ 根目錄），子選單只是視覺分群，實際連結同層
+# 頂部導航
+# 設計：扁平、不下拉 — 產品分類由 sidebar 處理
 # href 寫成 .php 是為對應原 PHP 站連結，模板會自動轉成 Hugo 路由（去掉 .php）
-
 - href: index.php
   label: Home
-  id: index
-
 - href: about.php
   label: About
-  id: about
-
 - href: antibodies.php
   label: Antibodies
-  id: antibodies
-  sub:
-    - { href: animal.php,        label: Animal }
-    - { href: cam.php,           label: CAM }
-    - { href: cytokine.php,      label: Cytokine }
-    - { href: g-protein.php,     label: G-Protein }
-    - { href: growth.php,        label: "Growth Factor" }
-    - { href: human.php,         label: Human }
-    - { href: miscellaneous.php, label: Miscellaneous }
-    - { href: neuroscience.php,  label: Neuroscience }
-    - { href: oxidative.php,     label: Oxidative }
-    - { href: plant.php,         label: Plant }
-    - { href: sars.php,          label: SARS }
-    - { href: serum.php,         label: Serum }
-    - { href: signal.php,        label: "Signal Transduction" }
-    - { href: subcellular.php,   label: Subcellular }
-    - { href: tag.php,           label: Tag }
-
 - href: antibody_productions.php
   label: "Antibody Productions"
-  id: antibody_productions
-  sub:
-    - { href: ap.php,  label: "Affinity Purification" }
-    - { href: map.php, label: MAP }
-    - { href: pap.php, label: PAP }
-
 - href: peptide_synthesis.php
   label: "Peptide Synthesis"
-  id: peptide_synthesis
-  sub:
-    - { href: cm.php,   label: CM }
-    - { href: fl.php,   label: FL }
-    - { href: lps.php,  label: LPS }
-    - { href: maps.php, label: MAPs }
-
 - href: peptides.php
   label: Peptides
-  id: peptides
-
 - href: protein.php
   label: Protein
-  id: protein
-  sub:
-    - { href: antigenic_proteins.php, label: "Antigenic Proteins" }
-
 - href: cosmetic_related.php
   label: "Cosmetic Related"
-  id: cosmetic_related
-  sub:
-    - { href: protein_cosmetics.php, label: "Protein Cosmetics" }
-
 - href: elisa_kit.php
   label: "ELISA Kit"
-  id: elisa_kit
-
 - href: gene_expression_and_purification.php
   label: "Gene Expression"
-  id: gene_expression
-
 - href: international_distributors.php
   label: Distributors
-  id: distributors
-
 - href: news.php
   label: News
-  id: news
-
 - href: faq.php
   label: FAQ
-  id: faq
-
 - href: contact.php
   label: Contact
-  id: contact

@@ -33,13 +33,6 @@
             btn.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
     }
-    // 子選單切換（手機）
-    document.querySelectorAll('.nav-sub-toggle').forEach(function (t) {
-        t.addEventListener('click', function (e) {
-            e.preventDefault();
-            t.parentElement.classList.toggle('is-open');
-        });
-    });
 })();
 </script>
 </body>
