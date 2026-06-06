@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__inner">
+        <a class="site-logo" href="{{ "/" | relURL }}">
+            <strong>{{ .Site.Title }}</strong>
+        </a>
+        {{ partial "nav.html" . }}
+    </div>
+</header>
+<main class="site-main">
+    {{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+<script>
+(function () {
+    // 漢堡選單切換
+    var btn = document.getElementById('navToggle');
+    var list = document.getElementById('navList');
+    if (btn && list) {
+        btn.addEventListener('click', function () {
+            var open = list.classList.toggle('is-open');
+            btn.classList.toggle('is-open', open);
+            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+    }
+    // 子選單切換（手機）
+    document.querySelectorAll('.nav-sub-toggle').forEach(function (t) {
+        t.addEventListener('click', function (e) {
+            e.preventDefault();
+            t.parentElement.classList.toggle('is-open');
+        });
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+/* =========================================================================
+   Genesis Biotech — Modern Responsive Stylesheet
+   -------------------------------------------------------------------------
+   Mobile-first, single CSS, no preprocessor needed.
+   Color palette: green brand #339900 family
+   ========================================================================= */
+
+/* ---------- Reset & base ---------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+    margin: 0;
+    color: #444;
+    background: #fff;
+    font-family: Tahoma, Arial, "Helvetica Neue", Helvetica, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a {
+    color: #339900;
+    text-decoration: none;
+    transition: color .15s;
+}
+a:hover { color: #246b00; text-decoration: underline; }
+
+/* ---------- Layout container ---------- */
+.site-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.25rem 1rem 3rem;
+}
+
+.site-content {
+    background: #fff;
+    padding: 1.5rem 0;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+    background: #fff;
+    border-bottom: 3px solid #339900;
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.site-header__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.site-logo {
+    color: #339900;
+    font-size: 1.1rem;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+.site-logo:hover { text-decoration: none; color: #246b00; }
+.site-logo strong { font-weight: 700; letter-spacing: .02em; }
+
+/* ---------- Navigation (desktop) ---------- */
+.site-nav { flex: 1; }
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-item { position: relative; }
+.nav-item > a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #444;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+.nav-item > a:hover {
+    background: #f4f8f0;
+    color: #339900;
+    text-decoration: none;
+}
+.nav-item.is-current > a {
+    color: #339900;
+    background: #f4f8f0;
+}
+
+/* Submenu (desktop) */
+.nav-sub {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: 3px solid #339900;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    display: none;
+    z-index: 100;
+}
+.nav-item.has-sub:hover > .nav-sub,
+.nav-item.has-sub.is-open > .nav-sub { display: block; }
+.nav-sub li a {
+    display: block;
+    padding: 0.4rem 1rem;
+    color: #444;
+    font-size: 0.85rem;
+}
+.nav-sub li a:hover { background: #f4f8f0; color: #339900; text-decoration: none; }
+
+.nav-sub-toggle {
+    display: none; /* hidden on desktop */
+    background: none;
+    border: 0;
+    color: #888;
+    cursor: pointer;
+    padding: 0 0.25rem;
+    font-size: 0.7rem;
+}
+
+/* Hamburger (hidden on desktop) */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto;
+}
+.nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #339900;
+    margin: 5px 0;
+    transition: transform .2s, opacity .2s;
+}
+.nav-toggle.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.is-open span:nth-child(2) { opacity: 0; }
+.nav-toggle.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ---------- Footer ---------- */
+.site-footer {
+    background: #f7f7f5;
+    border-top: 1px solid #e5e5e3;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+}
+.site-footer__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.site-footer__copy { margin: 0; }
+.site-footer__lang a { color: #339900; }
+
+/* ---------- Page-level typography ---------- */
+.page-title {
+    color: #339900;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+.page-section { margin-bottom: 2rem; }
+.page-section h2 {
+    color: #339900;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.75rem;
+}
+.page-section h3 {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.5rem;
+}
+.page-section p { margin: 0 0 0.75rem; }
+.page-section ul, .page-section ol { padding-left: 1.5rem; margin: 0 0 0.75rem; }
+.page-section li { margin-bottom: 0.25rem; }
+.page-section img { border: 1px solid #eee; border-radius: 4px; margin: 0.5rem 0; }
+
+/* Legacy content compatibility — 舊 HTML 表格/字型/style 仍可顯示 */
+.legacy-content table {
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+}
+.legacy-content table,
+.legacy-content table td,
+.legacy-content table th {
+    border: 1px solid #ddd;
+    padding: 0.4rem 0.6rem;
+}
+.legacy-content font,
+.legacy-content b,
+.legacy-content strong { color: inherit; font-weight: inherit; }
+
+/* PDF download link badge */
+.pdf-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0.5rem;
+    background: #f4f8f0;
+    border: 1px solid #c8e0b0;
+    border-radius: 3px;
+    color: #246b00;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin: 0 0.2rem 0.2rem 0;
+}
+.pdf-link::before { content: "📄"; font-size: 0.9em; }
+.pdf-link:hover { background: #e7f1da; text-decoration: none; }
+
+/* COA product table (產品列表樣式) */
+.coa-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+.coa-list__item {
+    padding: 0.5rem 0.75rem;
+    background: #fafafa;
+    border-left: 3px solid #339900;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.9rem;
+}
+
+/* News list */
+.news-list { list-style: none; padding: 0; }
+.news-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.news-list .news-date {
+    color: #888;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+/* ---------- Breadcrumb ---------- */
+.breadcrumb {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+.breadcrumb a { color: #339900; }
+.breadcrumb-sep { margin: 0 0.4rem; color: #ccc; }
+
+/* =========================================================================
+   Mobile / narrow viewport
+   ========================================================================= */
+@media (max-width: 768px) {
+    body { font-size: 16px; }
+
+    .site-header__inner {
+        flex-wrap: wrap;
+        padding: 0.5rem 0.75rem;
+    }
+    .site-logo { font-size: 1rem; }
+
+    /* Show hamburger */
+    .nav-toggle { display: block; }
+
+    /* Nav becomes dropdown panel */
+    .site-nav { width: 100%; order: 3; }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        background: #fff;
+        border-top: 1px solid #eee;
+        margin-top: 0.5rem;
+    }
+    .nav-list.is-open { display: flex; }
+    .nav-item > a {
+        padding: 0.75rem 1rem;
+        border-radius: 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .nav-sub-toggle { display: inline-block; }
+    .nav-sub {
+        position: static;
+        border: none;
+        box-shadow: none;
+        background: #f7f7f5;
+        border-radius: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        display: block;
+        transition: max-height .25s ease;
+    }
+    .nav-item.has-sub.is-open > .nav-sub { max-height: 800px; }
+    .nav-sub li a { padding-left: 1.75rem; }
+
+    .site-main { padding: 1rem 0.75rem 2rem; }
+    .page-title { font-size: 1.25rem; }
+    .page-section h2 { font-size: 1.05rem; }
+
+    .coa-list { grid-template-columns: 1fr; }
+}
+
+/* Print styles */
+@media print {
+    .site-header, .site-footer, .site-nav, .nav-toggle { display: none; }
+    body { font-size: 12pt; color: #000; }
+    a { color: #000; text-decoration: underline; }
+}

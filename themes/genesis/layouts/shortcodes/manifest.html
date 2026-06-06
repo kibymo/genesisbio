@@ -1,0 +1,16 @@
+{{/*
+  manifest shortcode — 查 data/coa.yaml 拿 PDF 路徑
+
+  用法（在 markdown 內）:
+    [下載 COA]({{< manifest "gb10001" >}})
+
+  Hugo 會把結果直接 inline 到 HTML 屬性或連結文字。
+  使用 chomp 去掉輸出末端的換行（避免 href 屬性值兩側多出換行）。
+*/}}
+{{- $key := .Get 0 -}}
+{{- $path := index .Site.Data.coa $key -}}
+{{- if $path -}}
+  {{- $path | relURL -}}
+{{- else -}}
+  {{- errorf "manifest: key %q not found in data/coa.yaml" $key -}}
+{{- end -}}

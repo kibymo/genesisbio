@@ -1,0 +1,54 @@
+{{/*
+  渲染頂部導航列
+  從 data/navigation.yaml 讀，自動 highlight 當前頁（id 對應或 URL 對應）
+*/}}
+{{ $currentId := "" }}
+{{ $currentRelPermalink := .RelPermalink }}
+{{ range .Site.Data.navigation }}
+  {{ $href := .href }}
+  {{ if hasPrefix $href "/" }}
+    {{/* absolute path - convert to relURL later */}}
+  {{ end }}
+{{ end }}
+
+<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+</button>
+<ul class="nav-list" id="navList">
+{{ range .Site.Data.navigation }}
+    {{ $href := .href }}
+    {{/* convert .php or plain slug to site URL */}}
+    {{ $url := "" }}
+    {{ if hasPrefix $href "/" }}
+        {{ $url = $href | relURL }}
+    {{ else if hasSuffix $href ".php" }}
+        {{ $slug := replace $href ".php" "" }}
+        {{ $url = printf "/%s/" $slug | relURL }}
+    {{ else if eq $href "index" }}
+        {{ $url = "/" | relURL }}
+    {{ else }}
+        {{ $url = printf "/%s/" $href | relURL }}
+    {{ end }}
+    {{ $hasSub := isset . "sub" }}
+    {{ $isCurrent := eq $currentRelPermalink $url }}
+    <li class="nav-item{{ if $hasSub }} has-sub{{ end }}{{ if $isCurrent }} is-current{{ end }}">
+        <a href="{{ $url }}">{{ .label }}</a>
+        {{ if $hasSub }}
+            <button class="nav-sub-toggle" aria-label="Expand submenu">▾</button>
+            <ul class="nav-sub">
+            {{ range .sub }}
+                {{ $subHref := .href }}
+                {{ $subUrl := "" }}
+                {{ if hasSuffix $subHref ".php" }}
+                    {{ $subSlug := replace $subHref ".php" "" }}
+                    {{ $subUrl = printf "/%s/" $subSlug | relURL }}
+                {{ else }}
+                    {{ $subUrl = printf "/%s/" $subHref | relURL }}
+                {{ end }}
+                <li><a href="{{ $subUrl }}">{{ .label }}</a></li>
+            {{ end }}
+            </ul>
+        {{ end }}
+    </li>
+{{ end }}
+</ul>

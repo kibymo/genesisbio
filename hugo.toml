@@ -1,0 +1,17 @@
+baseURL = 'https://genesisbio.com/'
+languageCode = 'en-us'
+title = 'Genesis Biotech Inc.'
+theme = 'genesis'
+
+[params]
+  description = 'Genesis Biotech — Antibodies, Peptides, Proteins, ELISA kits, and custom services.'
+  copyright = 'Genesis Biotech Inc.'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # 保留 legacy <TABLE> 內容
+  [markup.tableOfContents]
+    endLevel = 2
+  [markup.highlight]
+    noClasses = false
