@@ -1,6 +1,6 @@
 ---
 title: "Peptide Rp"
-# page_id: peptides  # nav 群組用，slug 用檔名
+page_id: peptides  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

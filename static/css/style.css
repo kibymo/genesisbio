@@ -211,7 +211,72 @@ a:hover { color: #246b00; text-decoration: underline; }
 .page-section li { margin-bottom: 0.25rem; }
 .page-section img { border: 1px solid #eee; border-radius: 4px; margin: 0.5rem 0; }
 
-/* Legacy content compatibility — 舊 HTML 表格/字型/style 仍可顯示 */
+/* ---------- Page layout (main + sidebar) ---------- */
+.page-layout {
+    display: grid;
+    grid-template-columns: 1fr 200px;   /* 主內容 + 200px sidebar */
+    gap: 1.5rem;
+    align-items: start;
+}
+.page-layout__main { min-width: 0; }    /* 防止表格撐爆 grid */
+.page-layout__side { min-width: 0; }
+@media (max-width: 900px) {
+    /* 手機 / 窄螢幕：sidebar 移到上方 */
+    .page-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .page-layout__side { order: -1; }  /* sidebar 在主內容上方 */
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar { font-size: 0.85rem; }
+.sidebar__section { margin-bottom: 1rem; }
+.sidebar__title {
+    background: #d8e7f5;                /* 淺藍 header（原站風格） */
+    border-top: 1px solid #6a8caf;
+    border-bottom: 1px solid #6a8caf;
+    color: #1f3a5c;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0.35rem 0.6rem;
+}
+.sidebar__list {
+    list-style: none;
+    margin: 0.25rem 0 0;
+    padding: 0;
+}
+.sidebar__item {
+    border-bottom: 1px dotted #ddd;
+}
+.sidebar__item:last-child { border-bottom: none; }
+.sidebar__item a {
+    display: block;
+    padding: 0.35rem 0.6rem 0.35rem 1.4rem;
+    color: #444;
+    position: relative;
+    text-decoration: none;
+    line-height: 1.3;
+}
+.sidebar__item a::before {
+    content: "›";                        /* 小箭頭標記（原站風格） */
+    position: absolute;
+    left: 0.6rem;
+    color: #6a8caf;
+    font-weight: 700;
+}
+.sidebar__item a:hover {
+    background: #f4f8f0;
+    color: #339900;
+    text-decoration: none;
+}
+.sidebar__item.is-current a {
+    background: #fff8d9;                 /* 淺黃 highlight */
+    color: #c87400;                      /* 橘色強調（原站風格） */
+    font-weight: 700;
+}
+.sidebar__item.is-current a::before { color: #c87400; }
 .legacy-content table {
     border-collapse: collapse;
     margin: 0.5rem 0;

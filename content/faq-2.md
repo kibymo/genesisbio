@@ -1,6 +1,6 @@
 ---
 title: "Faq 2"
-# page_id: faq  # nav 群組用，slug 用檔名
+page_id: faq  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

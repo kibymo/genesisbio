@@ -1,6 +1,6 @@
 ---
 title: "Gene Expression And Purification"
-# page_id: gene_expression  # nav 群組用，slug 用檔名
+page_id: gene_expression  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

@@ -1,6 +1,6 @@
 ---
 title: "Protein Cosmetics"
-# page_id: cosmetic_related  # nav 群組用，slug 用檔名
+page_id: cosmetic_related  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

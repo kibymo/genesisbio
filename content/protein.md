@@ -1,6 +1,6 @@
 ---
 title: "Protein"
-# page_id: protein  # nav 群組用，slug 用檔名
+page_id: protein  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

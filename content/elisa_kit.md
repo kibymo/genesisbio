@@ -1,6 +1,6 @@
 ---
 title: "Elisa Kit"
-# page_id: elisa_kit  # nav 群組用，slug 用檔名
+page_id: elisa_kit  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

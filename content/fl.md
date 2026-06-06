@@ -1,6 +1,6 @@
 ---
 title: "Fl"
-# page_id: peptide_synthesis  # nav 群組用，slug 用檔名
+page_id: peptide_synthesis  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

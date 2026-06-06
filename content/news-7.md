@@ -1,6 +1,6 @@
 ---
 title: "News 7"
-# page_id: news  # nav 群組用，slug 用檔名
+page_id: news  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

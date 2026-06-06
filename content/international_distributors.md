@@ -1,6 +1,6 @@
 ---
 title: "Yuan Yu Ltd."
-# page_id: distributors  # nav 群組用，slug 用檔名
+page_id: distributors  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}

@@ -1,0 +1,40 @@
+{{/*
+  Product sidebar — 從 data/sidebar.yaml 讀資料
+  自動 highlight 當前頁所屬的 section：
+    - URL 命中（用 permalink 比對 .php→/slug/ 形式）
+    - .Params.page_id 對應（子頁面 highlight 父類別）
+
+  使用：在 single.html 內
+    {{ partial "sidebar.html" . }}
+*/}}
+
+{{ $currentPermalink := .RelPermalink }}
+{{ $currentPageId := .Params.page_id | default "" }}
+
+<aside class="sidebar" aria-label="Product navigation">
+  {{ range .Site.Data.sidebar }}
+  <section class="sidebar__section">
+    <h2 class="sidebar__title">{{ .title }}</h2>
+    <ul class="sidebar__list">
+      {{ range .items }}
+        {{/* 把 .php 轉成 /slug/ 形式，與 .md permalink 一致 */}}
+        {{ $href := .href }}
+        {{ $url := "" }}
+        {{ if hasPrefix $href "/" }}
+          {{ $url = $href | relURL }}
+        {{ else if hasSuffix $href ".php" }}
+          {{ $slug := replace $href ".php" "" }}
+          {{ $url = printf "/%s/" $slug | relURL }}
+        {{ else }}
+          {{ $url = printf "/%s/" $href | relURL }}
+        {{ end }}
+        {{ $noHighlight := .no_highlight | default false }}
+        {{ $isCurrent := and (not $noHighlight) (or (eq $url $currentPermalink) (eq (replace $href ".php" "") $currentPageId)) }}
+        <li class="sidebar__item{{ if $isCurrent }} is-current{{ end }}">
+          <a href="{{ $url }}">{{ .label }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</aside>
