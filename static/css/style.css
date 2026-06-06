@@ -32,9 +32,15 @@ a:hover { color: #246b00; text-decoration: underline; }
 
 /* ---------- Layout container ---------- */
 .site-main {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1400px;      /* 加大：產品表格寬鬆展開 */
+    margin: 0 auto;         /* 仍置中（桌機） */
     padding: 1.25rem 1rem 3rem;
+}
+.legacy-content {
+    text-align: left;       /* 靠左對齊（桌機原站風格） */
+}
+@media (max-width: 768px) {
+    .site-main { margin: 0; }  /* 手機吃滿寬 */
 }
 
 .site-content {
@@ -209,6 +215,8 @@ a:hover { color: #246b00; text-decoration: underline; }
 .legacy-content table {
     border-collapse: collapse;
     margin: 0.5rem 0;
+    width: 100%;            /* 覆蓋 legacy width=570 等寫死寬度，寬鬆展開 */
+    max-width: 100%;        /* 避免表格超出容器 */
 }
 .legacy-content table,
 .legacy-content table td,
