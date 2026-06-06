@@ -11,9 +11,13 @@
     - { href: cosmetic_related.php,  label: "Cosmetic related" }
     - { href: protein.php,           label: "Protein" }
     - { href: elisa_kit.php,         label: "ELISA kit" }
+
 - title: "Custom Service"
   items:
-    - { href: peptide_synthesis.php, label: "Peptide synthesis" }
+    - { href: antibody_productions.php,                label: "Antibody Productions" }
+    - { href: peptide_synthesis.php,                   label: "Peptide synthesis" }
+    - { href: gene_expression_and_purification.php,    label: "Gene Expression" }
+
 - title: Shortcut
   items:
     - { href: international_distributors.php, label: "International distributors" }

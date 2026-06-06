@@ -1,14 +1,10 @@
 # 頂部導航（精簡版）
 # 設計原則：Sidebar 已經有的分類不要列在這裡
-# 完整導航分類由左側 sidebar 處理（Product / Custom Service / Shortcut）
+# Custom Service / Product / Shortcut 全部由左側 sidebar 處理
 - href: index.php
   label: Home
 - href: about.php
   label: About
-- href: antibody_productions.php
-  label: "Antibody Productions"
-- href: gene_expression_and_purification.php
-  label: "Gene Expression"
 - href: news.php
   label: News
 - href: faq.php
