@@ -211,10 +211,10 @@ a:hover { color: #246b00; text-decoration: underline; }
 .page-section li { margin-bottom: 0.25rem; }
 .page-section img { border: 1px solid #eee; border-radius: 4px; margin: 0.5rem 0; }
 
-/* ---------- Page layout (main + sidebar) ---------- */
+/* ---------- Page layout (sidebar + main) ---------- */
 .page-layout {
     display: grid;
-    grid-template-columns: 1fr 200px;   /* 主內容 + 200px sidebar */
+    grid-template-columns: 200px 1fr;   /* sidebar 200px 在左，主內容佔滿右側 */
     gap: 1.5rem;
     align-items: start;
 }
