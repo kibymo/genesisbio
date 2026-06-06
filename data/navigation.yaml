@@ -1,28 +1,14 @@
-# 頂部導航
-# 設計：扁平、不下拉 — 產品分類由 sidebar 處理
-# href 寫成 .php 是為對應原 PHP 站連結，模板會自動轉成 Hugo 路由（去掉 .php）
+# 頂部導航（精簡版）
+# 設計原則：Sidebar 已經有的分類不要列在這裡
+# 完整導航分類由左側 sidebar 處理（Product / Custom Service / Shortcut）
 - href: index.php
   label: Home
 - href: about.php
   label: About
-- href: antibodies.php
-  label: Antibodies
 - href: antibody_productions.php
   label: "Antibody Productions"
-- href: peptide_synthesis.php
-  label: "Peptide Synthesis"
-- href: peptides.php
-  label: Peptides
-- href: protein.php
-  label: Protein
-- href: cosmetic_related.php
-  label: "Cosmetic Related"
-- href: elisa_kit.php
-  label: "ELISA Kit"
 - href: gene_expression_and_purification.php
   label: "Gene Expression"
-- href: international_distributors.php
-  label: Distributors
 - href: news.php
   label: News
 - href: faq.php

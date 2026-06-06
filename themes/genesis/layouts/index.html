@@ -1,19 +1,13 @@
 {{ define "main" }}
-<section class="home">
-    <h1>{{ .Site.Title }}</h1>
-    <p class="home__lead">{{ .Site.Params.description }}</p>
-    <ul class="home__nav">
-    {{ range first 8 .Site.Data.navigation }}
-        {{ $href := .href }}
-        {{ $url := "" }}
-        {{ if hasSuffix $href ".php" }}
-            {{ $slug := replace $href ".php" "" }}
-            {{ $url = printf "/%s/" $slug | relURL }}
-        {{ else }}
-            {{ $url = printf "/%s/" $href | relURL }}
-        {{ end }}
-        <li><a href="{{ $url }}">{{ .label }}</a></li>
-    {{ end }}
-    </ul>
-</section>
+<div class="page-layout">
+    <div class="page-layout__side">
+        {{ partial "sidebar.html" . }}
+    </div>
+    <div class="page-layout__main">
+        <section class="home page-section">
+            <h1 class="page-title">{{ .Site.Title }}</h1>
+            <p class="home__lead">{{ .Site.Params.description }}</p>
+        </section>
+    </div>
+</div>
 {{ end }}
