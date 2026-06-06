@@ -15,7 +15,6 @@
   subsections:
     - title: "Catalogue Products"
       items:
-        - { href: antibodies.php,        label: "Catalogue Products", no_highlight: true }
         - { href: peptides.php,          label: "Peptides" }
         - { href: antibodies.php,        label: "Antibodies" }
         - { href: cosmetic_related.php,  label: "Cosmetic related" }
