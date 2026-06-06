@@ -1,11 +1,11 @@
-# Sidebar 結構（產品頁左側）
-# 對應 data/navigation.yaml 內的 href
+# Sidebar 結構（左側，產品分類）
+# 結構：section header（純標題、不連結）+ items（可點）
+# 對應 navigation.yaml 內的 href
 # 要加新分類：在對應 section 內加一筆
 # `no_highlight: true` 表示這項是總覽連結，不參與 highlight
 
-- title: Product
+- title: "Catalogue Products"
   items:
-    - { href: antibodies.php,        label: "Catalogue Products", no_highlight: true }
     - { href: peptides.php,          label: "Peptides" }
     - { href: antibodies.php,        label: "Antibodies" }
     - { href: cosmetic_related.php,  label: "Cosmetic related" }
@@ -14,9 +14,9 @@
 
 - title: "Custom Service"
   items:
-    - { href: antibody_productions.php,                label: "Antibody Productions" }
-    - { href: peptide_synthesis.php,                   label: "Peptide synthesis" }
-    - { href: gene_expression_and_purification.php,    label: "Gene Expression" }
+    - { href: antibody_productions.php,             label: "Antibody Productions" }
+    - { href: peptide_synthesis.php,                label: "Peptide synthesis" }
+    - { href: gene_expression_and_purification.php, label: "Gene Expression" }
 
 - title: Shortcut
   items:
