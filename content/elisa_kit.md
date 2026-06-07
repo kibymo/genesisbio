@@ -56,13 +56,6 @@ page_id: elisa_kit  # nav 群組用，slug 用檔名
             </font> <br>
             </td>
           </tr>
-          <tr>
-            <td height="1" valign="top" width="578"><img src="/images/spacer.gif" border="0" height="1" width="1"></td>
-          </tr>
-          <tr>
-            <td height="0" valign="top" width="578"><br>
-            </td>
-          </tr>
         </tbody>
       </table>
 <!--
