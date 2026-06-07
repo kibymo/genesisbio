@@ -4,18 +4,15 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
+<div class="lps-shell">
 <h1 class="page-title">Linear Peptide Synthesis</h1>
-      <TABLE cellSpacing=0 cellPadding=0 width=568 border=0>
-        <TBODY>
-        <TR>
-          <TD valign="top" width="544">
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <table border="0" width="100%" cellspacing="0" cellpadding="0" style="border:0">
             <tr>
               <td width="100%" height="18" class=pTableContent><strong><font color="#000080">The Principle of Solid-Phase Peptide Synthesis</font></strong></td>                                        
             </tr>
             <tr>
               <td width="100%" height="200">
-                <table border="0" width="100%" cellspacing="0" cellpadding="0" height="726">
+                <table border="0" width="100%" cellspacing="0" cellpadding="0" height="726" style="border:0">
                   <tr>
                     <td width="100%" height="162">
                       <span lang="EN-US" style="font-size:12.0pt;font-family:
@@ -98,11 +95,9 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">
               </td>
             </tr>
           </table>
-          </TD>
-        </TR>
-        </TBODY></TABLE>
-     
+
      <!--
         -->
+</div>
 
 {{< /raw >}}

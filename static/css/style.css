@@ -261,6 +261,17 @@ a:hover { color: #246b00; text-decoration: underline; }
     border: 1px solid #ddd;
     padding: 0.4rem 0.6rem;
 }
+/* lps 頁面：內容不需外框，覆寫 .legacy-content 內 table/td 邊框與 padding */
+.legacy-content .lps-shell table,
+.legacy-content .lps-shell td,
+.legacy-content .lps-shell th {
+    border: 0;
+    padding: 0;
+}
+.legacy-content .lps-shell table {
+    border-collapse: separate;  /* 讓 table 自身無 collapse 邊線 */
+}
+
 .legacy-content font,
 .legacy-content b,
 .legacy-content strong { color: inherit; font-weight: inherit; }
