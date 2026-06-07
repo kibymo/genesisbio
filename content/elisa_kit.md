@@ -4,7 +4,7 @@ page_id: elisa_kit  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
-<h1 class="page-title">ELISA Kit</h1>
+<h1 class="page-title">Elisa Kit</h1>
 <table border="0" cellpadding="0" cellspacing="0" height="84" width="583">
         <tbody>
           <tr>
