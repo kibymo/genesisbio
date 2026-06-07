@@ -1,12 +1,92 @@
 {{ define "main" }}
+{{/* 預先查找需要的頁面 */}}
+{{ $productPages := slice
+  (dict "name" "peptides" "title" "Peptides" "desc" "High-quality custom and catalogue peptides for research.")
+  (dict "name" "antibodies" "title" "Antibodies" "desc" "Polyclonal and monoclonal antibodies for various applications.")
+  (dict "name" "cosmetic_related" "title" "Cosmetic related" "desc" "Cosmetic peptides and bioactive ingredients.")
+  (dict "name" "protein" "title" "Protein" "desc" "Recombinant and native proteins for research.")
+  (dict "name" "elisa_kit" "title" "ELISA kit" "desc" "Ready-to-use ELISA kits for various targets.")
+}}
+{{ $servicePages := slice
+  (dict "name" "antibody_productions" "title" "Antibody Productions" "desc" "Custom polyclonal and monoclonal antibody production services.")
+  (dict "name" "peptide_synthesis" "title" "Peptide Synthesis" "desc" "Custom peptide synthesis with various modifications and purity grades.")
+  (dict "name" "gene_expression_and_purification" "title" "Gene Expression" "desc" "Gene expression and protein purification services.")
+}}
+
 <div class="page-layout">
     <div class="page-layout__side">
         {{ partial "sidebar.html" . }}
     </div>
     <div class="page-layout__main">
         <section class="home page-section">
-            <h1 class="page-title">{{ .Site.Title }}</h1>
-            <p class="home__lead">{{ .Site.Params.description }}</p>
+
+            {{/* Hero */}}
+            <div class="home-hero">
+                <h1 class="page-title">{{ .Site.Title }}</h1>
+                <p class="home__lead">{{ .Site.Params.description }}</p>
+                <a class="btn btn-primary" href="/about/">About Genesis Biotech →</a>
+            </div>
+
+            {{/* Product Categories */}}
+            <div class="home-section">
+                <h2 class="home-section__title">Catalogue Products</h2>
+                <div class="home-cards">
+                    {{ range $productPages }}
+                    {{ $p := $.Site.GetPage (printf "/%s/" .name) }}
+                    {{ if $p }}
+                    <a class="home-card" href="{{ $p.RelPermalink }}">
+                        <h3 class="home-card__title">{{ .title }}</h3>
+                        <p class="home-card__desc">{{ .desc }}</p>
+                        <span class="home-card__more">View →</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+
+            {{/* Custom Services */}}
+            <div class="home-section">
+                <h2 class="home-section__title">Custom Services</h2>
+                <div class="home-cards home-cards--3col">
+                    {{ range $servicePages }}
+                    {{ $p := $.Site.GetPage (printf "/%s/" .name) }}
+                    {{ if $p }}
+                    <a class="home-card" href="{{ $p.RelPermalink }}">
+                        <h3 class="home-card__title">{{ .title }}</h3>
+                        <p class="home-card__desc">{{ .desc }}</p>
+                        <span class="home-card__more">Learn more →</span>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+
+            {{/* Latest News */}}
+            <div class="home-section">
+                <h2 class="home-section__title">Latest News</h2>
+                <ul class="home-news">
+                    {{ $newsContent := readFile "content/news.md" }}
+                    {{ $items := findRE `\[(\d{4}-\d{2}-\d{2})\]</font>\s*([^<\n]+)` $newsContent 4 }}
+                    {{ range first 4 $items }}
+                    {{ $date := index (findRE `\[(\d{4}-\d{2}-\d{2})\]` . 1) 0 }}
+                    {{ $dateClean := trim (replace (replace $date "[" "") "]" "") " " }}
+                    {{ $title := replace (index (findRE `\]</font>\s*(.*)` . 1) 0) "]</font>" "" }}
+                    <li class="home-news__item">
+                        <time class="home-news__date">{{ $dateClean }}</time>
+                        <span class="home-news__title">{{ $title }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+                <a class="home-section__more" href="/news/">View all news →</a>
+            </div>
+
+            {{/* Contact CTA */}}
+            <div class="home-cta">
+                <h2 class="home-cta__title">Get in touch</h2>
+                <p>Contact us for custom services, bulk orders, or technical support.</p>
+                <a class="btn btn-primary" href="/contact/">Contact Us →</a>
+            </div>
+
         </section>
     </div>
 </div>
