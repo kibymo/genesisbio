@@ -102,7 +102,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             Fax: +62.31.5998627<br>                                                                                      
             E-mail: <a href="mailto:kutama@indo.net.id">kutama@indo.net.id</a><br>                                                                                 
             website: </font></TD>
-          <TD vAlign=top height="0">&nbsp;<font size="2"><strong><img width="50" border="0" src="/ireland.jpg" height="33"> Ireland</strong></font>                                                                                              
+          <TD vAlign=top height="0"><font size="2"><strong><img width="50" border="0" src="/ireland.jpg" height="33"> Ireland</strong></font>                                                                                              
                  
           <br>
 			<font size="1">Bioquote Limited<br>                                                                               
