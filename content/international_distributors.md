@@ -52,10 +52,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
 
     <!--- line2 --->
         
-        <TR>
-          <TD vAlign=top width="282" height="1"><br></TD>
-          <TD vAlign=top width="283" height="1"><br></TD>
-        </TR>
+        
         
         
  <!--- line3 --->    
@@ -94,10 +91,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.dianova.de" target="_blank">www.dianova.de</a></font></TD>                                              
         </TR>
 
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
        
         
   <!--- line4 --->      
@@ -142,10 +136,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
 			Email: <a href="mailto:hongkong@biolead.com">hongkong@biolead.com</a></font></TD>
         </TR>
 
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
 
  
   <!--- line5--->     
@@ -180,10 +171,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website:&nbsp;<a href="http://www.bioquote.com" target="_blank">www.bioquote.com</a></font> </TD>     
         </TR>
         
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
         
         
         
@@ -223,10 +211,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             </font></TD>                                                     
         </TR>
             
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
 
  <!--- line8 --->
 
@@ -266,10 +251,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             
  <!--- line9 --->
        
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR> 
+         
  
  <!--- line10 --->
        
@@ -305,10 +287,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
           </TD>     
         </TR>
         
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
         
   <!--- line11 --->
         <TR>
@@ -348,10 +327,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
 
  <!--- line13 --->
 
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
 
    <!--- line14 --->
         <TR>
@@ -389,10 +365,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
           </TD>     
         </TR>
         
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
 
         
         
@@ -428,22 +401,13 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.novusbio.com/antibodies" target="_blank">www.novusbio.com/antibodies</a></font></TD>     
         </TR>
         
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
 
         
-        <TR>
-          <TD vAlign=top width="282" height="0"><br></TD>   
-          <TD vAlign=top width="283" height="0"><br></TD>   
-        </TR>
+        
   
         
-        <TR>
-          <TD vAlign=top width="282" height="0"></TD>   
-          <TD vAlign=top width="283" height="0"></TD>   
-        </TR></TBODY></TABLE>
+        </TBODY></TABLE>
       
      <!--
         -->
