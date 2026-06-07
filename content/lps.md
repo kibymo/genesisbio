@@ -5,14 +5,11 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
 
 {{< raw >}}
 <h1 class="page-title">Linear Peptide Synthesis</h1>
-      <TABLE cellSpacing=0 cellPadding=0 width=568 border=0 height="333">
+      <TABLE cellSpacing=0 cellPadding=0 width=568 border=0>
         <TBODY>
         <TR>
-          <TD valign="top" width="544" height="355">
-          
-          
-          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0" height="222">
+          <TD valign="top" width="544">
+          <table border="0" width="100%" cellspacing="0" cellpadding="0">
             <tr>
               <td width="100%" height="18" class=pTableContent><strong><font color="#000080">The Principle of Solid-Phase Peptide Synthesis</font></strong></td>                                        
             </tr>
@@ -47,7 +44,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><img border="0" src="/lps1.j
                       <span lang="EN-US" style="font-size:12.0pt;font-family:
 &quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-ansi-language:EN-US;
 mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">
-                      <img border="0" src="/lps2.jpg" width="179" height="124"><img border="0" src="/lps3.jpg" width="181" height="124"></span> 
+                      <img border="0" src="/lps2.jpg" width="179" height="124" style="display:inline-block"><img border="0" src="/lps3.jpg" width="181" height="124" style="display:inline-block"></span> 
                       
                     </td>
                   </tr>
@@ -97,18 +94,11 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">
                     </td>
                   </tr>
                  
-                  <tr>
-                    <td width="100%" height="21"></td>
-                  </tr>
                 </table>
               </td>
             </tr>
           </table>
-          
-          
-                 
           </TD>
-     
         </TR>
         </TBODY></TABLE>
      
