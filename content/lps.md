@@ -23,7 +23,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
                     <td width="100%" height="162">
                       <span lang="EN-US" style="font-size:12.0pt;font-family:
 &quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-ansi-language:EN-US;
-mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><img border="0" src="lps1.jpg" width="443" height="209"></span>
+mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><img border="0" src="/lps1.jpg" width="443" height="209"></span>
                     </td>
                   </tr>
                                     <tr>
@@ -38,7 +38,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><img border="0" src="lps1.jp
                   </tr>
                   <tr>
                     <td width="100%" height="6" class=pTableContent>
-                      All products are manufactured by high quality control and Genesis Biotech Inc. also supplies HPLC and Mass Spectrum assay data . 
+                      All products are manufactured by high quality control and 元郁有限公司 also supplies HPLC and Mass Spectrum assay data . 
                       
                     </td>
                   </tr>
@@ -47,13 +47,13 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA"><img border="0" src="lps1.jp
                       <span lang="EN-US" style="font-size:12.0pt;font-family:
 &quot;Times New Roman&quot;;mso-fareast-font-family:新細明體;mso-ansi-language:EN-US;
 mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">
-                      <img border="0" src="lps2.jpg" width="179" height="124"><img border="0" src="lps3.jpg" width="181" height="124"></span> 
+                      <img border="0" src="/lps2.jpg" width="179" height="124"><img border="0" src="/lps3.jpg" width="181" height="124"></span> 
                       
                     </td>
                   </tr>
                   <tr>
                     <td width="100%" height="5" class=pTableContent>
-                      Genesis Biotech Inc. has peptide synthesizers, using solid-phase peptide synthesis to generate peptides up to about 60 amino acids. We are able to provide the best and quickest service. 
+                      元郁有限公司 has peptide synthesizers, using solid-phase peptide synthesis to generate peptides up to about 60 amino acids. We are able to provide the best and quickest service. 
                       
                     </td>
                   </tr>
@@ -82,7 +82,7 @@ mso-fareast-language:ZH-TW;mso-bidi-language:AR-SA">
                     <font color="#0000FF">
                       
                     Note:</font>&nbsp;<br>
-                    Base on difficile degree of peptides synthesis, Genesis Biotech Inc. reserves the decision of delivery time.)                 
+                    Base on difficile degree of peptides synthesis, 元郁有限公司 reserves the decision of delivery time.)                 
                       
                     </td>
                   </tr>
