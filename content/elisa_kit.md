@@ -4,21 +4,7 @@ page_id: elisa_kit  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
-<table border="0" cellpadding="0" cellspacing="0" width="570">
-        <tbody>
-          <tr>
-            <td width="568"><br>
-            </td>
-          </tr>
-          <tr>
-            <td bgcolor="#c9c9c9" width="568"><img alt="" src="/images/spacer.gif" border="0" height="1" width="1"></td>
-          </tr>
-          <tr>
-            <td width="568"><font color="#0000ff" size="2"><b><img alt="" src="/images/spacer.gif" border="0" height="15" width="1"></b></font></td>
-          </tr>
-        </tbody>
-      </table>
-      <table border="0" cellpadding="0" cellspacing="0" height="84" width="583">
+<table border="0" cellpadding="0" cellspacing="0" height="84" width="583">
         <tbody>
           <tr>
             <td height="89" valign="top" width="559">
