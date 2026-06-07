@@ -4,6 +4,7 @@ page_id: peptides  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
+<h1 class="page-title">Peptides</h1>
       <TABLE cellSpacing=0 cellPadding=0 width=568 border=0 height="281">
         <TBODY>
         <TR>
