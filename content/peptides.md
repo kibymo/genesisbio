@@ -53,7 +53,7 @@ page_id: peptides  # nav 群組用，slug 用檔名
           <font color="#6699FF">               
           
           
-          <strong>FRET</strong></font> peptide is hot technology in these two years. Genesis Biotech Inc. have accomplished many projects like Dabcyl an Edans labeling peptides that be authorized from our partners. We have strong ability and abundant experience to challenge difficult peptide modification.                 
+          <strong>FRET</strong></font> peptide is hot technology in these two years. 元郁有限公司 have accomplished many projects like Dabcyl an Edans labeling peptides that be authorized from our partners. We have strong ability and abundant experience to challenge difficult peptide modification.                 
           
           
           </TD>

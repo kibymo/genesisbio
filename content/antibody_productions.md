@@ -11,7 +11,7 @@ page_id: antibody_productions  # nav 群組用，slug 用檔名
           
           
           
-          <font color="#6699FF"><strong>Genesis Biotech Inc.</strong></font>          
+          <font color="#6699FF"><strong>元郁有限公司</strong></font>          
           
           
           

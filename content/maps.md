@@ -9,7 +9,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="560" height="88" colspan="2">
           <strong><font color="#6699FF">Multiple Antigenic Peptides (MAPs)</font></strong>          
-            <br><font size="2"><font color="#6699FF"><b>MAPs</b></font> stands are Multiple Antigenic Peptide, is a branched peptide at which linear&nbsp;peptide chains are linked at their C-terminus via polylysine core, there by increasing&nbsp;the size of whole molecule. Genesis Biotech Inc. provides several choices for MAP such&nbsp;as 4 branches asymmetric or Symmetric, and 8 branches asymmetric or symmetric.Therefore,&nbsp;it can enhance antigen by increasing peptide’s molecular weight. If we choose MAP as&nbsp;antigen, it is unnecessary to conjugate carrier protein..<br>                 
+            <br><font size="2"><font color="#6699FF"><b>MAPs</b></font> stands are Multiple Antigenic Peptide, is a branched peptide at which linear&nbsp;peptide chains are linked at their C-terminus via polylysine core, there by increasing&nbsp;the size of whole molecule. 元郁有限公司 provides several choices for MAP such&nbsp;as 4 branches asymmetric or Symmetric, and 8 branches asymmetric or symmetric.Therefore,&nbsp;it can enhance antigen by increasing peptide’s molecular weight. If we choose MAP as&nbsp;antigen, it is unnecessary to conjugate carrier protein..<br>                 
           </font>
        
           </TD>

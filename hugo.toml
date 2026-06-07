@@ -1,11 +1,11 @@
 baseURL = 'https://genesisbio.com/'
 languageCode = 'en-us'
-title = 'Genesis Biotech Inc.'
+title = '元郁有限公司'
 theme = 'genesis'
 
 [params]
-  description = 'Genesis Biotech Inc. — Antibodies, Peptides, Proteins, ELISA kits, and custom services.'
-  copyright = 'Genesis Biotech Inc.'
+  description = '元郁有限公司 — Antibodies, Peptides, Proteins, ELISA kits, and custom services.'
+  copyright = '元郁有限公司'
 
 [markup]
   [markup.goldmark]

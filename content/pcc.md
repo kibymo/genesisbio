@@ -13,7 +13,7 @@ page_id: peptides  # nav 群組用，slug 用檔名
 			conjugating to haptens and other antigens. KLH could make antigens 
 			more immunogenic for the antibody production. Because of its large 
 			mass and complexity, KLH cause a stronger immune response than other 
-			carrier proteins. Now, <b><font color="#339966">Genesis Biotech Inc.</font></b> 
+			carrier proteins. Now, <b><font color="#339966">元郁有限公司</font></b> 
 			provides this service for all customers that need better and 
 			stronger antibody production.</font></TD>
      
