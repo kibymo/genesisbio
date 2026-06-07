@@ -296,6 +296,20 @@ a:hover { color: #246b00; text-decoration: underline; }
 /* 隱藏定位用 spacer.gif（8 個 .md 共 14 個）— 純空白定位元素 */
 .legacy-content img[src*="spacer"] { display: none; }
 
+/* 資料表（pTableTitle / pTableContent class 標記的，例如 19 個目錄頁 No./Products/
+   Catalog No./Package/Application/Form 表）恢復 1px 灰線以視覺分隔 cell。
+   class 為 pTableTitle1/2/3.../pTableContent1/2/3... 帶數字，用 [class*=] 匹配 */
+.legacy-content table:has([class*="pTableTitle"]),
+.legacy-content table:has([class*="pTableContent"]) {
+    border-collapse: collapse;
+}
+.legacy-content table:has([class*="pTableTitle"]) td,
+.legacy-content table:has([class*="pTableTitle"]) th,
+.legacy-content table:has([class*="pTableContent"]) td {
+    border: 1px solid #ddd;
+    padding: 0.4rem 0.6rem;
+}
+
 /* PDF download link badge */
 .pdf-link {
     display: inline-flex;
