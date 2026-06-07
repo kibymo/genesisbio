@@ -5,13 +5,11 @@ page_id: distributors  # nav 群組用，slug 用檔名
 
 {{< raw >}}
 <h1 class="page-title">international_distributors</h1>
-  <TABLE cellSpacing=0 cellPadding=0 width=570 border=0 height="18">
-        <TBODY>
-       
-    
-   <!--- line1 --->     
-       <TR>
-          <TD rowspan="2" valign="top" width="273" height="22">                 
+  <!-- sub-table 1 -->
+  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+      <TR>
+          <TD valign="top" width="273" height="22">                 
           <font size="2"><strong><img border="0" src="/belgium.jpg" width="50" height="33"> 
           Belgium</strong></font>                               
           <br>
@@ -24,7 +22,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:info@gentaur.com">&nbsp;info@gentaur.com</a><br>    
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>    
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="1"><img border="0" src="/china.jpg" width="50" height="33"><font size="2"><strong> </strong></font>
+          <TD vAlign=top width="283" height="1"><img border="0" src="/china.jpg" width="50" height="33"><font size="2"><strong> </strong></font>
 			<strong><font size="2">China</font></strong><br>
 			<font size="1">Beijing office:<br>
 			Beijing Biolead International Trading Co.,Ltd.<br>
@@ -39,8 +37,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
 			Email: <a href="mailto:sales@biolead.com.cn">sales@biolead.com.cn</a><br>
 			Website: <a href="http://www.biolead.com.cn">www.biolead.com.cn</a></font></TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="282" height="1"><img border="0" src="/france.jpg" width="50" height="33"> <font size="2"><strong>France</strong></font>                         
+      <TR>
+          <TD vAlign=top width="282" height="1"><img border="0" src="/france.jpg" width="50" height="33"> <font size="2"><strong>France</strong></font>                         
                  
           <br><font size="1">Interchim<br>          
             211 bis av JF Kennedy - BP1140<br>                                                                            
@@ -51,7 +49,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.interchim.com" target="_blank"> www.interchim.com</a>                                                                    
             </font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="1"><img border="0" src="/germany.jpg" width="50" height="33"> 
+          <TD vAlign=top width="283" height="1"><img border="0" src="/germany.jpg" width="50" height="33"> 
             <font size="2"><strong>Germany</strong></font>                
                  
           <br><font size="1">Dianova GmbH<br>                                             
@@ -63,8 +61,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:info@dianova.de">info@dianova.de</a><br>                                                                                      
             website: <a href="http://www.dianova.de" target="_blank">www.dianova.de</a></font></TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="282" height="1"><img border="0" src="/germany.jpg" width="50" height="33"> 
+      <TR>
+          <TD vAlign=top width="282" height="1"><img border="0" src="/germany.jpg" width="50" height="33"> 
             <font size="2"><strong>Germany</strong></font><br>
 			<font size="1">Acris Antibodies GmbH<br>
 			Schillerstrasse 5, D-32056 Herford, Germany                                                                                    
@@ -74,7 +72,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:info@acris-online.de">info@acris-online.de</a><br>                                                                                      
             website: <a target="_blank" href="http://www.acris-antibodies.com">
 			www.acris-antibodies.com</a></font></TD>
-          <TD rowspan="2" vAlign=top width="282" height="0"><font size="2"><strong><img border="0" src="/holland.jpg" width="50" height="33"> 
+          <TD vAlign=top width="282" height="0"><font size="2"><strong><img border="0" src="/holland.jpg" width="50" height="33"> 
             </strong></font><font size="2"><strong>Holland</strong></font>                            
                  
           <br>
@@ -88,14 +86,20 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>    
           </TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="283" height="1"><img border="0" src="/hongkong.jpg" width="50" height="33"> <font size="2"><strong>HongKong</strong></font><br><font size="1">HongKong office:<br>Hong Kong Biolead International Trading Limited<br>
+    </TBODY>
+  </TABLE>
+
+<!-- sub-table 2 -->
+  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+      <TR>
+          <TD vAlign=top width="283" height="1"><img border="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/250px-Flag_of_Hong_Kong.svg.png" width="50" height="33"> <font size="2"><strong>HongKong</strong></font><br><font size="1">HongKong office:<br>Hong Kong Biolead International Trading Limited<br>
 			Flat B11,22/F.,Hoover Industrial Building,26-38 Kwai<br>
 			Cheong Road,Kwai Chung,N.T.,Hong Kong<br>
 			Postal code: 999077<br>
 			Mobile: (852) 53095898<br>
 			Email: <a href="mailto:hongkong@biolead.com">hongkong@biolead.com</a></font></TD>
-          <TD rowspan="2" vAlign=top width="282" height="0">              
+          <TD vAlign=top width="282" height="0">              
                  
           <img border="0" src="/indonesia.jpg"> 
             <strong><font size="2">Indonesia</font></strong><br>
@@ -107,8 +111,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail: <a href="mailto:kutama@indo.net.id">kutama@indo.net.id</a><br>                                                                                 
             website: </font></TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="283" height="0">&nbsp;<font size="2"><strong><img border="0" src="/ireland.jpg" width="50" height="33"> Ireland</strong></font>                                                                                              
+      <TR>
+          <TD vAlign=top width="283" height="0">&nbsp;<font size="2"><strong><img border="0" src="/ireland.jpg" width="50" height="33"> Ireland</strong></font>                                                                                              
                  
           <br>
 			<font size="1">Bioquote Limited<br>                                                                               
@@ -117,7 +121,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             Fax:&nbsp;44-0-1904-431409<br>     
             E-mail:&nbsp;<a href="mailto:sales@bioquote.com">sales@bioquote.com</a><br>                                   
             website:&nbsp;<a href="http://www.bioquote.com" target="_blank">www.bioquote.com</a></font> </TD>
-          <TD rowspan="2" valign="top" width="273" height="22">
+          <TD valign="top" width="273" height="22">
                            
           <font size="2"><strong>
 			<img border="0" src="/israel.jpg" width="50" height="33"> Israel</strong></font><br>
@@ -134,8 +138,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a target="_blank" href="http://www.prospecbio.com">
 			www.prospecbio.com</a></font></TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="282" height="0"><img border="0" src="/italy.jpg" width="50" height="33"> 
+      <TR>
+          <TD vAlign=top width="282" height="0"><img border="0" src="/italy.jpg" width="50" height="33"> 
             <font size="2"><strong>Italy</strong></font>                  
                  
           <br><font size="1">Prodotti Gianni S.p.A. Divisione Ricerca<br>                                  
@@ -146,7 +150,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:ricerca@prodottigianni.com">ricerca@prodottigianni.com</a><br>    
             website:&nbsp;</font><font size="1"><a href="http://www.prodottigianni.com" target="_blank">www.ricerca.it</a></font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="0"><img border="0" src="/jp.jpg" width="50" height="33"> 
+          <TD vAlign=top width="283" height="0"><img border="0" src="/jp.jpg" width="50" height="33"> 
             <font size="2"><strong>Japan</strong></font>               
                  
           <br><font size="1">Funakoshi                                   
@@ -160,8 +164,14 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.funakoshi.co.jp" target="_blank">www.funakoshi.co.jp</a>                                                                                    
             </font></TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="283" height="0">              
+    </TBODY>
+  </TABLE>
+
+<!-- sub-table 3 -->
+  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+      <TR>
+          <TD vAlign=top width="283" height="0">              
                  
           <img border="0" src="/korea.jpg" width="50" height="33"><font size="2"><strong>Korea</strong></font> 
                  
@@ -173,7 +183,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:interhealthcare@hanmail.net"> interhealthcare@hanmail.net
 			</a>  <br>                                  
             website:&nbsp;<a target="_blank" href="http://www.inter-healthcare.com">www.inter-healthcare.com</a></font></TD>
-          <TD rowspan="2" vAlign=top width="282" height="0"> 
+          <TD vAlign=top width="282" height="0"> 
             <font size="2"><strong><img border="0" src="/luxembourg.jpg" width="50" height="33"> 
             Luxembourg</strong></font>              
                  
@@ -187,8 +197,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>   
           </TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="282" height="0" > 
+      <TR>
+          <TD vAlign=top width="282" height="0" > 
             <img border="0" src="/portugal.jpg" width="50" height="33"> 
             <font size="2"><strong> Portugal </strong></font>                
                  
@@ -201,7 +211,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail: <a href="mailto:galicia@labclinics.com">galicia@labclinics.com</a>  <br>               
             website: <a href="http://www.labclinics.com" target="_blank">www.labclinics.com</a></font>              
           </TD>
-          <TD rowspan="2" vAlign=top width="282" height="0"><img border="0" src="/slovenia.jpg" width="50" height="33"> 
+          <TD vAlign=top width="282" height="0"><img border="0" src="/slovenia.jpg" width="50" height="33"> 
             <font size="2"><strong>Slovenia</strong></font>                                                                   
                  
           <br><font size="1">Dvojica                                        
@@ -216,8 +226,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website:&nbsp;<a href="http://www.dvojica.com" target="_blank">www.dvojica.com</a></font>   
           </TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="283" height="0"><img border="0" src="/spain.jpg" width="50" height="33"><font size="2"><strong> Spain</strong></font>                                
+      <TR>
+          <TD vAlign=top width="283" height="0"><img border="0" src="/spain.jpg" width="50" height="33"><font size="2"><strong> Spain</strong></font>                                
           <br><font size="1">Labclinics, S.A.<br>  
             C/ Industria 54.<br>  
             Barcelona 08025,<br>  
@@ -228,7 +238,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:i<a href="mailto:info@labclinics.com">nfo@labclinics.com</a><br>    
             website:<a href="http://www.labclinics.com" target="_blank">www.labclinics.com</a></font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="282" height="0">              
+          <TD vAlign=top width="282" height="0">              
                  
           <img border="0" src="/uk.jpg" width="50" height="33"> 
             <font size="2"><strong>United Kingdom</strong></font>                                               
@@ -243,8 +253,14 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.bioquote.com" target="_blank"> www.bioquote.com</a></font>                                                                               
           </TD>
         </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="283" height="0">              
+    </TBODY>
+  </TABLE>
+
+<!-- sub-table 4 (partial) -->
+    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+      <TR>
+          <TD vAlign=top width="100%" height="0">              
                  
           <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A.</strong></font><br><font size="1">Boca Scientific Inc.<br>                                                              
             950 Peninsula Corporate Circle,<br>                                                             
@@ -255,7 +271,9 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:info@bocascientific.com"> info@bocascientific.com</a><br>                                                        
             website: <a href="http://www.bocascientific.com" target="_blank">www.bocascientific.com</a></font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="0">              
+        </TR>
+      <TR>
+          <TD vAlign=top width="100%" height="0">              
                  
           <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A</strong></font>              
                  
@@ -269,8 +287,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website: <a href="http://www.bioreagents.com" target="_blank">www.bioreagents.com</a></font>                                                       
           </TD>
         </TR>
-        <TR>
-          <TD colspan="2" rowspan="2" vAlign=top width="283" height="0">              
+      <TR>
+          <TD vAlign=top width="100%" height="0">              
                  
           <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A</strong></font>              
                  
@@ -283,17 +301,9 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail: <a href="mailto:novus@novusbio.com">novus@novusbio.com</a><br>                                                                       
             website: <a href="http://www.novusbio.com/antibodies" target="_blank">www.novusbio.com/antibodies</a></font></TD>
         </TR>
-        
-        
-        
-        
-        
+    </TBODY>
+  </TABLE>
 
-        
-        
-  
-        
-        </TBODY></TABLE>
       
      <!--
         -->
