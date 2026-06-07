@@ -4,6 +4,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
+<h1 class="page-title">Multiple Antigenic Peptide (MAP)</h1>
       <TABLE cellSpacing=0 cellPadding=0 width=584 border=0 height="84">
         <TBODY>
         <TR>
