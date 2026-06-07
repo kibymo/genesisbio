@@ -11,22 +11,6 @@ page_id: distributors  # nav 群組用，slug 用檔名
     
    <!--- line1 --->     
        <TR>
-          <TD rowspan="2" valign="top" width="273" height="22">
-                           
-          <font size="2"><strong>
-			<img border="0" src="/israel.jpg" width="50" height="33"> Israel</strong></font><br>
-          <font size="1">ProSpec-Tany TechnoGene Ltd.<br>
-			Rehovot Science Park，<br>
-			Holzman St. 2, Entrance-B Suite 4, Rehovot 76124, ISRAEL<br>                                                                                      
-            USA Toll Free Phone: 866-245-0885 ext: 113<br>
-			USA Toll Free Fax: 866-796-4944<br>
-			Europe Toll Free Phone: 00-800-800-66666 ext: 113<br>
-			Europe Toll Free Fax: 00-800-800-67890<br>
-			International Phone: +972-8-9471175 ext: 113<br>
-			International Fax: +972-8-9460534<br>                                                                                      
-            E-mail: <a href="mailto:nadav@prospecbio.com">nadav@prospecbio.com</a><br>                                                                                 
-            website: <a target="_blank" href="http://www.prospecbio.com">
-			www.prospecbio.com</a></font></TD>
           <TD rowspan="2" valign="top" width="273" height="22">                 
           <font size="2"><strong><img border="0" src="/belgium.jpg" width="50" height="33"> 
           Belgium</strong></font>                               
@@ -40,6 +24,27 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:info@gentaur.com">&nbsp;info@gentaur.com</a><br>    
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>    
           </TD>
+          <TD rowspan="2" vAlign=top width="283" height="1"><img border="0" src="/china.jpg" width="50" height="33"><font size="2"><strong> </strong></font>
+			<strong><font size="2">China</font></strong><br>
+			<font size="1">Beijing office:<br>
+			Beijing Biolead International Trading Co.,Ltd.<br>
+			Room 603,6th floor,Building 4, ID park,<br>
+			Duyang South Street, Shunyi District,<br>
+			Beijing P.R.China<br>
+			Postal code:101300<br>
+			Phone: +86-010-84640949<br>
+			Mobil Phone: +86-010-13910004809<br>
+			Wechat: +86-010-13910004809<br>
+			Phone: 400-650-8846 (Toll Free, China Only) <br>
+			Email: <a href="mailto:sales@biolead.com.cn">sales@biolead.com.cn</a><br>
+			Website: <a href="http://www.biolead.com.cn">www.biolead.com.cn</a><br>
+			Hongkong office:<br>
+			Hong Kong Biolead International Trading Limited<br>
+			Flat B11,22/F.,Hoover Industrial Building,26-38 Kwai<br>
+			Cheong Road,Kwai Chung,N.T.,Hong Kong<br>
+			Postal code: 999077<br>
+			Mobile: (852) 53095898<br>
+			Email: <a href="mailto:hongkong@biolead.com">hongkong@biolead.com</a></font></TD>
         </TR>
         <TR>
           <TD rowspan="2" vAlign=top width="282" height="1"><img border="0" src="/france.jpg" width="50" height="33"> <font size="2"><strong>France</strong></font>                         
@@ -76,29 +81,6 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:info@acris-online.de">info@acris-online.de</a><br>                                                                                      
             website: <a target="_blank" href="http://www.acris-antibodies.com">
 			www.acris-antibodies.com</a></font></TD>
-          <TD rowspan="2" vAlign=top width="283" height="1"><img border="0" src="/china.jpg" width="50" height="33"><font size="2"><strong> </strong></font>
-			<strong><font size="2">China</font></strong><br>
-			<font size="1">Beijing office:<br>
-			Beijing Biolead International Trading Co.,Ltd.<br>
-			Room 603,6th floor,Building 4, ID park,<br>
-			Duyang South Street, Shunyi District,<br>
-			Beijing P.R.China<br>
-			Postal code:101300<br>
-			Phone: +86-010-84640949<br>
-			Mobil Phone: +86-010-13910004809<br>
-			Wechat: +86-010-13910004809<br>
-			Phone: 400-650-8846 (Toll Free, China Only) <br>
-			Email: <a href="mailto:sales@biolead.com.cn">sales@biolead.com.cn</a><br>
-			Website: <a href="http://www.biolead.com.cn">www.biolead.com.cn</a><br>
-			Hongkong office:<br>
-			Hong Kong Biolead International Trading Limited<br>
-			Flat B11,22/F.,Hoover Industrial Building,26-38 Kwai<br>
-			Cheong Road,Kwai Chung,N.T.,Hong Kong<br>
-			Postal code: 999077<br>
-			Mobile: (852) 53095898<br>
-			Email: <a href="mailto:hongkong@biolead.com">hongkong@biolead.com</a></font></TD>
-        </TR>
-        <TR>
           <TD rowspan="2" vAlign=top width="282" height="0"><font size="2"><strong><img border="0" src="/holland.jpg" width="50" height="33"> 
             </strong></font><font size="2"><strong>Holland</strong></font>                            
                  
@@ -112,6 +94,19 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:info@gentaur.com">&nbsp;info@gentaur.com</a><br>                                          
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>    
           </TD>
+        </TR>
+        <TR>
+          <TD rowspan="2" vAlign=top width="282" height="0">              
+                 
+          <img border="0" src="/indonesia.jpg"> 
+            <strong><font size="2">Indonesia</font></strong><br>
+          <font size="1">CV. Kristalindo Biolab<br>
+			Jl. Arief Rachman Hakim No. 61-63<br>
+			Blok M Surabaya-Indonesia<br>                                                                                      
+            Tel: +62.31.5998626<br>                                                                                      
+            Fax: +62.31.5998627<br>                                                                                      
+            E-mail: <a href="mailto:kutama@indo.net.id">kutama@indo.net.id</a><br>                                                                                 
+            website: </font></TD>
           <TD rowspan="2" vAlign=top width="283" height="0">&nbsp;<font size="2"><strong><img border="0" src="/ireland.jpg" width="50" height="33"> Ireland</strong></font>                                                                                              
                  
           <br>
@@ -123,6 +118,22 @@ page_id: distributors  # nav 群組用，slug 用檔名
             website:&nbsp;<a href="http://www.bioquote.com" target="_blank">www.bioquote.com</a></font> </TD>
         </TR>
         <TR>
+          <TD rowspan="2" valign="top" width="273" height="22">
+                           
+          <font size="2"><strong>
+			<img border="0" src="/israel.jpg" width="50" height="33"> Israel</strong></font><br>
+          <font size="1">ProSpec-Tany TechnoGene Ltd.<br>
+			Rehovot Science Park，<br>
+			Holzman St. 2, Entrance-B Suite 4, Rehovot 76124, ISRAEL<br>                                                                                      
+            USA Toll Free Phone: 866-245-0885 ext: 113<br>
+			USA Toll Free Fax: 866-796-4944<br>
+			Europe Toll Free Phone: 00-800-800-66666 ext: 113<br>
+			Europe Toll Free Fax: 00-800-800-67890<br>
+			International Phone: +972-8-9471175 ext: 113<br>
+			International Fax: +972-8-9460534<br>                                                                                      
+            E-mail: <a href="mailto:nadav@prospecbio.com">nadav@prospecbio.com</a><br>                                                                                 
+            website: <a target="_blank" href="http://www.prospecbio.com">
+			www.prospecbio.com</a></font></TD>
           <TD rowspan="2" vAlign=top width="282" height="0"><img border="0" src="/italy.jpg" width="50" height="33"> 
             <font size="2"><strong>Italy</strong></font>                  
                  
@@ -134,6 +145,8 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:ricerca@prodottigianni.com">ricerca@prodottigianni.com</a><br>    
             website:&nbsp;</font><font size="1"><a href="http://www.prodottigianni.com" target="_blank">www.ricerca.it</a></font>   
           </TD>
+        </TR>
+        <TR>
           <TD rowspan="2" vAlign=top width="283" height="0"><img border="0" src="/jp.jpg" width="50" height="33"> 
             <font size="2"><strong>Japan</strong></font>               
                  
@@ -147,6 +160,18 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<br>    
             website: <a href="http://www.funakoshi.co.jp" target="_blank">www.funakoshi.co.jp</a>                                                                                    
             </font></TD>
+          <TD rowspan="2" vAlign=top width="283" height="0">              
+                 
+          <img border="0" src="/korea.jpg" width="50" height="33"><font size="2"><strong>Korea</strong></font> 
+                 
+          <br>
+			<font size="1">Inter-healthcare Co., Ltd. <br>
+			186-43, Jangan-dong, Dongdaemun-ku<br>
+			Seoul, 130-837, Korea<br>Tel:&nbsp;+82 2 2243 9488<br>                                     
+            Fax:&nbsp;+82 2 2243 2772<br>                                    
+            E-mail:<a href="mailto:interhealthcare@hanmail.net"> interhealthcare@hanmail.net
+			</a>  <br>                                  
+            website:&nbsp;<a target="_blank" href="http://www.inter-healthcare.com">www.inter-healthcare.com</a></font></TD>
         </TR>
         <TR>
           <TD rowspan="2" vAlign=top width="282" height="0"> 
@@ -162,20 +187,6 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:<a href="mailto:info@gentaur.com">&nbsp;info@gentaur.com</a><br>    
             website:&nbsp;<a href="http://www.gentaur.com" target="_blank">www.gentaur.com</a></font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="0">              
-                 
-          <img border="0" src="/korea.jpg" width="50" height="33"><font size="2"><strong>Korea</strong></font> 
-                 
-          <br>
-			<font size="1">Inter-healthcare Co., Ltd. <br>
-			186-43, Jangan-dong, Dongdaemun-ku<br>
-			Seoul, 130-837, Korea<br>Tel:&nbsp;+82 2 2243 9488<br>                                     
-            Fax:&nbsp;+82 2 2243 2772<br>                                    
-            E-mail:<a href="mailto:interhealthcare@hanmail.net"> interhealthcare@hanmail.net
-			</a>  <br>                                  
-            website:&nbsp;<a target="_blank" href="http://www.inter-healthcare.com">www.inter-healthcare.com</a></font></TD>
-        </TR>
-        <TR>
           <TD rowspan="2" vAlign=top width="282" height="0" > 
             <img border="0" src="/portugal.jpg" width="50" height="33"> 
             <font size="2"><strong> Portugal </strong></font>                
@@ -188,17 +199,6 @@ page_id: distributors  # nav 群組用，slug 用檔名
             Fax:&nbsp;<br>     
             E-mail: <a href="mailto:galicia@labclinics.com">galicia@labclinics.com</a>  <br>               
             website: <a href="http://www.labclinics.com" target="_blank">www.labclinics.com</a></font>              
-          </TD>
-          <TD rowspan="2" vAlign=top width="283" height="0"><img border="0" src="/spain.jpg" width="50" height="33"><font size="2"><strong> Spain</strong></font>                                
-          <br><font size="1">Labclinics, S.A.<br>  
-            C/ Industria 54.<br>  
-            Barcelona 08025,<br>  
-            Spain                                                                      
-            <br>                                                              
-            Tel:93 446 47 00<br>      
-            Fax:93 348 10 39<br>      
-            E-mail:i<a href="mailto:info@labclinics.com">nfo@labclinics.com</a><br>    
-            website:<a href="http://www.labclinics.com" target="_blank">www.labclinics.com</a></font>   
           </TD>
         </TR>
         <TR>
@@ -216,16 +216,16 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail:&nbsp;<a href="mailto:info@dvojica.com">info@dvojica.com</a><br>    
             website:&nbsp;<a href="http://www.dvojica.com" target="_blank">www.dvojica.com</a></font>   
           </TD>
-          <TD rowspan="2" vAlign=top width="283" height="0">              
-                 
-          <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A.</strong></font><br><font size="1">Boca Scientific Inc.<br>                                                              
-            950 Peninsula Corporate Circle,<br>                                                             
-            Suite 1025, Boca Raton, FL 33487</font><br>    
-            <font size="1">                                                             
-            Tel: 561-995 5017<br>                                                               
-            Fax: 561-995 5018<br>                                                               
-            E-mail:<a href="mailto:info@bocascientific.com"> info@bocascientific.com</a><br>                                                        
-            website: <a href="http://www.bocascientific.com" target="_blank">www.bocascientific.com</a></font>   
+          <TD rowspan="2" vAlign=top width="283" height="0"><img border="0" src="/spain.jpg" width="50" height="33"><font size="2"><strong> Spain</strong></font>                                
+          <br><font size="1">Labclinics, S.A.<br>  
+            C/ Industria 54.<br>  
+            Barcelona 08025,<br>  
+            Spain                                                                      
+            <br>                                                              
+            Tel:93 446 47 00<br>      
+            Fax:93 348 10 39<br>      
+            E-mail:i<a href="mailto:info@labclinics.com">nfo@labclinics.com</a><br>    
+            website:<a href="http://www.labclinics.com" target="_blank">www.labclinics.com</a></font>   
           </TD>
         </TR>
         <TR>
@@ -245,6 +245,19 @@ page_id: distributors  # nav 群組用，slug 用檔名
           </TD>
           <TD rowspan="2" vAlign=top width="283" height="0">              
                  
+          <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A.</strong></font><br><font size="1">Boca Scientific Inc.<br>                                                              
+            950 Peninsula Corporate Circle,<br>                                                             
+            Suite 1025, Boca Raton, FL 33487</font><br>    
+            <font size="1">                                                             
+            Tel: 561-995 5017<br>                                                               
+            Fax: 561-995 5018<br>                                                               
+            E-mail:<a href="mailto:info@bocascientific.com"> info@bocascientific.com</a><br>                                                        
+            website: <a href="http://www.bocascientific.com" target="_blank">www.bocascientific.com</a></font>   
+          </TD>
+        </TR>
+        <TR>
+          <TD rowspan="2" vAlign=top width="283" height="0">              
+                 
           <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A</strong></font>              
                  
           <br>
@@ -256,19 +269,6 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail: <a href="mailto:sales@bioreagents.com">sales@bioreagents.com</a><br>                                                                       
             website: <a href="http://www.bioreagents.com" target="_blank">www.bioreagents.com</a></font>                                                       
           </TD>
-        </TR>
-        <TR>
-          <TD rowspan="2" vAlign=top width="282" height="0">              
-                 
-          <img border="0" src="/indonesia.jpg"> 
-            <strong><font size="2">Indonesia</font></strong><br>
-          <font size="1">CV. Kristalindo Biolab<br>
-			Jl. Arief Rachman Hakim No. 61-63<br>
-			Blok M Surabaya-Indonesia<br>                                                                                      
-            Tel: +62.31.5998626<br>                                                                                      
-            Fax: +62.31.5998627<br>                                                                                      
-            E-mail: <a href="mailto:kutama@indo.net.id">kutama@indo.net.id</a><br>                                                                                 
-            website: </font></TD>
           <TD rowspan="2" vAlign=top width="283" height="0">              
                  
           <img border="0" src="/usa.jpg"><font size="2"><strong> U.S.A</strong></font>              
@@ -282,6 +282,7 @@ page_id: distributors  # nav 群組用，slug 用檔名
             E-mail: <a href="mailto:novus@novusbio.com">novus@novusbio.com</a><br>                                                                       
             website: <a href="http://www.novusbio.com/antibodies" target="_blank">www.novusbio.com/antibodies</a></font></TD>
         </TR>
+        
         
         
         
