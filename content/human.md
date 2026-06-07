@@ -130,12 +130,6 @@ page_id: antibodies  # nav 群組用，slug 用檔名
        
           </TD>
      
-        </TR>
-        <TR>
-          <TD vAlign=top width="578" height="1"><img border="0" src="/images/spacer.gif" width="1" height="1"></TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="578" height="0"></TD> 
         </TR></TBODY></TABLE>
       
      <!--

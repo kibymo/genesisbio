@@ -16,8 +16,7 @@ page_id: cosmetic_related  # nav 群組用，slug 用檔名
               <td width="68%" height="142" class=pTableContent></td>     
             </tr>
           </table>
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">
-          </table>
+          
        
           </TD>
      
@@ -82,15 +81,6 @@ page_id: cosmetic_related  # nav 群組用，slug 用檔名
           
           
           </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="544" height="20" colspan="2"><br> 
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="563" height="59" colspan="2">　</TD>
         </TR></TBODY></TABLE>
       
      <!--

@@ -94,11 +94,6 @@ page_id: news  # nav 群組用，slug 用檔名
 			and stimulates the production of collagen Ⅳ fibroblasts.… <a target="_blank" href="/news-2/">(continues…)</a></TD> 
         </TR>
 
-        
-        <TR>
-          <TD valign="top" width="570" height="45" class=pTableContent>　</TD> 
-        </TR>
-
              
         </TBODY></TABLE>
       

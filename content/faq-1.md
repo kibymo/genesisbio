@@ -11,8 +11,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           How come ask for choosing Genesis Biotech Inc?</b>                                  
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>    
         </TR>        
         <TR>
@@ -29,8 +28,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           Do customers just provide gene sequences for us to synthesize peptide?</b>      
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -47,8 +45,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What circumstance will we suggest you doing peptide purification?</b>        
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -66,8 +63,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What kinds of quality assurance methods are applied at Genesis Biotech Inc?</b>        
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -84,8 +80,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           Why do we need to conjugate KLH or BSA to Peptide?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -102,8 +97,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What is MAP?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -120,8 +114,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What size of peptide is suitable for inducing antibody?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -139,8 +132,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <b class="primaryHeader">
           What benefits can customers enjoy after ordering antibodies of Genesis 
           Biotech Inc?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -158,8 +150,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What many days could Genesis Biotech Inc. finish the synthesis of peptide?</b>        
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -177,8 +168,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           How should Peptides to be delivered?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -195,8 +185,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           How should the peptides to be stored?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -213,8 +202,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What length of peptide can Genesis Biotech Inc. produce?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -231,8 +219,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What kinds of peptide services can Genesis biotech Inc. provide?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -240,9 +227,6 @@ page_id: faq  # nav 群組用，slug 用檔名
           <font size="2">●Epitope Prediction and Antigenic Design .　　　　　　　　　　　　　　<br>●Custom Peptide Series.　　　　　　　　　　　　　　<br>1. Liner Peptide.　　　　　　　　　　　　　　　　　　<br>2. Multiple Antigenic Peptide (MAP).　　　　　　　　　　　　<br>3. Phosphospecific Peptide.　　　　　　　　　　　　　　<br>4. Protein Carrier Conjugation.　　　　　　　　　　<br>5. Peptide Modification.　　　　　　　　　<br>6. Peptide Fluorescence / Dye Labeling.　　　　　　　　　　　　<br>7. HPLC / Mass Spec.　　　　　　　　　　　　　　　　　　　<br>8.                    
           Custom Peptide Array (CPA).</font>                                      
           </TD>     
-        </TR>
-        <TR>
-          <TD vAlign=top width="526" height="21"></TD>
         </TR>
 
         

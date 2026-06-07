@@ -16,8 +16,7 @@ page_id: antibodies  # nav 群組用，slug 用檔名
               <td width="19%" height="152"><img border="0" src="/peptide1.jpg" width="145" height="151"></td>
             </tr>
           </table>
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">
-          </table>
+          
        
           </TD>
      
@@ -136,9 +135,6 @@ page_id: antibodies  # nav 群組用，slug 用檔名
           
           
           </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="563" height="59" colspan="2">　</TD>
         </TR></TBODY></TABLE>
       
      <!--

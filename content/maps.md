@@ -46,12 +46,6 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
 			conjugate the antigen to a protein carrier.&nbsp;</font></p>
 			<p>　</p>
 			<p>　</TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="579" height="1" colspan="2"><img border="0" src="/images/spacer.gif" width="1" height="1"></TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="579" height="0" colspan="2"></TD> 
         </TR></TBODY></TABLE>
       
      <!--

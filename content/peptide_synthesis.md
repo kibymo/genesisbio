@@ -25,8 +25,7 @@ ZH-TW;mso-bidi-language:AR-SA"><font size="2"><b><font color="#6699FF">Genesis
                 alone.</font></span></td>
             </tr>
           </table>
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">
-          </table>
+          
        
           </TD>
      
@@ -104,9 +103,6 @@ ZH-TW;mso-bidi-language:AR-SA"><a href="/maps/"><font size="2">Multiple Antigeni
           
           
           </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="563" height="59" colspan="2">　</TD>
         </TR></TBODY></TABLE>
       
      <!--

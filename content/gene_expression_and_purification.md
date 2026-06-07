@@ -23,22 +23,6 @@ page_id: gene_expression  # nav 群組用，slug 用檔名
           <font size="2">&nbsp;<br>
 　</font></TD>
      
-        </TR>
-        <TR>
-          <TD valign="top" width="560" height="1" colspan="2">
-            <br><font size="2"><br>             
-            </font>
-          </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="560" height="0" colspan="2"><br>    
-          </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="579" height="1" colspan="2"><img border="0" src="/images/spacer.gif" width="1" height="1"></TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="579" height="0" colspan="2"></TD> 
         </TR></TBODY></TABLE>
       
      <!--

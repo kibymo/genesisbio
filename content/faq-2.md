@@ -10,8 +10,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">Why                  do we choose Genesis Biotech Inc?</b>                                                 
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>    
         </TR>        
         <TR>
@@ -28,8 +27,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">How many gram of antigen can produce the high throughout antibody?</b>       
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -55,8 +53,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">How much                  percentage of the antigen should the client 
           provide? What kind of buffer is suitable for immunization?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -74,8 +71,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <b class="primaryHeader">
           How to prepare the antigen that is in SDS-PAGE before delivering                  to 
           Genesis Biotech Inc?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -95,8 +91,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           Can Genesis biotech Inc. help customers for epitope prediction and antigen design?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -115,8 +110,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">How to send the antigen to Genesis biotech Inc?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -133,8 +127,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           How much volume of antiserum can the client get?</b>         
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -160,8 +153,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <b class="primaryHeader">
           How to control the quality of customers’ antibody in Genesis Biotech 
           Inc?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -181,8 +173,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">What advantages can the customer get from ordering 
           antibody products of Genesis Biotech Inc?</b>           
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -201,8 +192,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           What circumstances will we advice the client to do antibody purification?</b>          
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -219,8 +209,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">How                  to deliver the antibody?</b>           
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
@@ -236,17 +225,13 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">How                  to store the antibody?</b>           
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">            
-          </table>       
+                 
           </TD>     
         </TR>
         <TR>
           <TD valign="top" width="507" height="23">
           <font size="2">●Avoid repeating freeze/thaw cycles.<br>●Divide the antibody solution into small quantity.　　　　　　　　　　　　　　　<br>●For a short storage, keep the products at the temperature of 4℃ in a refrigerator.　<br>●For a long storage, keep the products at the temperature of -20℃or -80℃ in a freezer.</font>                                      
           </TD>     
-        </TR>
-        <TR>
-          <TD vAlign=top width="526" height="21"></TD>
         </TR>
 
         

@@ -69,15 +69,6 @@ page_id: antibody_productions  # nav 群組用，slug 用檔名
           
           
           </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="272" height="20">  
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="563" height="59" colspan="2"></TD>
         </TR></TBODY></TABLE>
       
      <!--

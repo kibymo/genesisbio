@@ -61,34 +61,7 @@ page_id: protein  # nav 群組用，slug 用檔名
           <a href="/antigenic_proteins/">Antigenic proteins</a>      
           
           
-          </TD>
-        <TR>
-          <TD valign="top" width="372" height="20" class=pTableContent>
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="372" height="20" class=pTableContent>  
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="372" height="20" class=pTableContent>  
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD valign="top" width="372" height="1">  
-          
-          
-          </TD>
-        </TR>
-        <TR>
-          <TD vAlign=top width="563" height="59" colspan="2"></TD>
-        </TR></TBODY></TABLE>
+          </TD></TBODY></TABLE>
       
      <!--
         -->

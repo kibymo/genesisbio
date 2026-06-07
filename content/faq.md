@@ -9,9 +9,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <font size="3"><a href="/faq-1/">Peptide Synthesis</a> | <a href="/faq-2/">Antibody</a></font>                    
-          <table border="0" width="100%" cellspacing="0" cellpadding="0">
-            
-          </table>
+          
        
           </TD>
      
@@ -22,9 +20,6 @@ page_id: faq  # nav 群組用，slug 用檔名
        
           </TD>
      
-        </TR>
-        <TR>
-          <TD vAlign=top width="526" height="21"></TD>
         </TR></TBODY></TABLE>
       
      <!--

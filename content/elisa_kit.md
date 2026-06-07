@@ -69,27 +69,7 @@ page_id: elisa_kit  # nav 群組用，slug 用檔名
 
       <TABLE cellSpacing=0 cellPadding=0 width=569 border=0>
 
-        <TBODY>
-
-        <TR>
-
-          <TD width="567"><IMG height=15 alt="" 
-
-            src="/images/spacer.gif" width=1 border=0></TD></TR>
-
-        <TR>
-
-          <TD bgColor=#c9c9c9 width="567"><IMG height=1 alt="" 
-
-            src="/images/spacer.gif" width=1 border=0></TD></TR>
-
-        <TR>
-
-          <TD width="567"><IMG height=15 alt="" 
-
-            src="/images/spacer.gif" width=1 
-
-        border=0></TD></TR></TBODY></TABLE>
+        <TBODY></TBODY></TABLE>
 
         
 
