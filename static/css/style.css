@@ -265,6 +265,16 @@ a:hover { color: #246b00; text-decoration: underline; }
 .legacy-content b,
 .legacy-content strong { color: inherit; font-weight: inherit; }
 
+/* International distributors: 3 欄等寬 */
+.legacy-content table.distributors-table {
+    table-layout: fixed;       /* 強制 cell 寬度依照 col 設定 */
+    width: 100%;
+}
+.legacy-content table.distributors-table td {
+    width: 33.33%;
+    vertical-align: top;
+}
+
 /* PDF download link badge */
 .pdf-link {
     display: inline-flex;
