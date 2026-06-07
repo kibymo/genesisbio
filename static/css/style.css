@@ -265,13 +265,6 @@ a:hover { color: #246b00; text-decoration: underline; }
 .legacy-content b,
 .legacy-content strong { color: inherit; font-weight: inherit; }
 
-/* International distributors: sub-table 分隔（每個 sub-table 間留 1.5rem + 虛線） */
-.legacy-content table + table {
-    margin-top: 1.5rem;
-    border-top: 2px dashed #ccc;
-    padding-top: 1rem;
-}
-
 /* PDF download link badge */
 .pdf-link {
     display: inline-flex;
