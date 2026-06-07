@@ -70,8 +70,6 @@ a:hover { color: #246b00; text-decoration: underline; }
     font-size: 1.1rem;
     text-decoration: none;
     flex-shrink: 0;
-    order: 2;            /* 推到最右（讓 nav / hamburger 靠左）*/
-    margin-left: auto;   /* 推到底 */
 }
 .site-logo:hover { text-decoration: none; color: #246b00; }
 .site-logo strong { font-weight: 700; letter-spacing: .02em; }
@@ -115,7 +113,7 @@ a:hover { color: #246b00; text-decoration: underline; }
     border: 0;
     cursor: pointer;
     padding: 0.5rem;
-    order: 1;
+    margin-left: auto;
 }
 .nav-toggle span {
     display: block;

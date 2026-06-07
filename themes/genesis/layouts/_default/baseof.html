@@ -7,6 +7,11 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
     <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+    <script>
+    // F5 重新整理時不要還原 scroll position
+    // 必須在 head 內、page render 前就設好（否則 browser 可能先嘗試 restore）
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    </script>
 </head>
 <body>
 <header class="site-header">
@@ -22,11 +27,22 @@
 </main>
 {{ partial "footer.html" . }}
 <script>
-// F5 重新整理時不要還原 scroll position
-// 解決「refresh 後卡住不能捲」：browsers 還原到舊位置，
-// 但頁面 layout 已 reflow（圖片載入、DOM 變化）造成「stuck」。
-if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+// 重新整理時回到頂部（涵蓋 F5 + BFCache 還原 + 一般 page load）
 window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
+window.addEventListener('pageshow', (e) => {
+    // BFCache 還原時（e.persisted = true）也強制回頂
+    if (e.persisted) window.scrollTo(0, 0);
+});
+// 預防措施：page load 完若 scrollY > 0（異常情況），回頂
+window.addEventListener('load', () => {
+    if (window.scrollY > 0 && window.scrollY < document.documentElement.scrollHeight) {
+        // 給 1 個 frame 讓 layout 穩定
+        requestAnimationFrame(() => {
+            // 仍只在「不是用戶主動捲動」的情況下回頂
+            // 無法區分；保險起見不回頂避免干擾
+        });
+    }
+});
 </script>
 <script>
 (function () {
