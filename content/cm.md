@@ -9,7 +9,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="560" height="88" colspan="2">
           <strong><font color="#6699FF">Chemical Modification</font></strong>         
-            <br><font size="2"><font color="#6699FF" size="2"><b>Genesis Biotech Inc.</b></font>  
+            <br><font size="2"><font color="#6699FF" size="2"><b>元郁有限公司</b></font>  
           provides a wide variety of choices for modifications ,it can Match&nbsp;<br>        
           your specific needs. That includes N-terminal Acylation, C-terminal Amidation,Biotion,&nbsp;<br>        
           Cylization, Disulfide Bridge, Phosphorylation, Fatty acid etc.In addition, Peptide&nbsp;<br>        
@@ -25,7 +25,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
             <font size="2"><b><font color="#008080">1.Phosphorylation</font></b>&nbsp;<br>
   Phosphopeptides can assist in the investigation of the influences of phosphorylation on&nbsp;peptides and protein structure and in the understanding of regulatory processes mediated&nbsp;by protein kinases. Utilizing our optimized Fmoc and Boc 
 			methodologies, Utilizing our&nbsp;optimized Fmoc and Boc methodologies, 
-			Genesis Biotech Inc. has successfully synthesized&nbsp;numerous serine-,threonine-,and </font></TD>
+			元郁有限公司 has successfully synthesized&nbsp;numerous serine-,threonine-,and </font></TD>
           <TD valign="top" width="283">
             <table border="0" width="100%" id="table1" height="148">
 				<tr>

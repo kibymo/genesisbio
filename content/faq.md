@@ -16,7 +16,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         </TR>
         <TR>
           <TD valign="top" width="507" height="79">
-          <font size="2">Genesis Biotech Inc. is different from other biotech companies which only acts as an intermediate agent to place orders for customers; Genesis Biotech Inc. is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.</font>   
+          <font size="2">元郁有限公司 is different from other biotech companies which only acts as an intermediate agent to place orders for customers; 元郁有限公司 is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.</font>   
        
           </TD>
      

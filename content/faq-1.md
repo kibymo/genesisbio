@@ -10,13 +10,13 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
-          How come ask for choosing Genesis Biotech Inc?</b>                                  
+          How come ask for choosing 元郁有限公司?</b>                                  
                  
           </TD>    
         </TR>        
         <TR>
           <TD valign="top" width="507" height="70">
-          <font size="2">Genesis Biotech Inc. is different from other biotech companies which only acts as an intermediate agent to place orders for customers; Genesis Biotech Inc. is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.</font>          
+          <font size="2">元郁有限公司 is different from other biotech companies which only acts as an intermediate agent to place orders for customers; 元郁有限公司 is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.</font>          
           </TD>     
         </TR>
         <TR>
@@ -62,13 +62,13 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
-          What kinds of quality assurance methods are applied at Genesis Biotech Inc?</b>        
+          What kinds of quality assurance methods are applied at 元郁有限公司?</b>        
                  
           </TD>     
         </TR>
         <TR>
           <TD valign="top" width="507" height="57">
-          <font size="2">All produced peptides in Genesis Biotech have to be qualified through HPLC analysis and Mass Spectrum analysis. Synthesis peptides that are qualified through those testing criteria would be delivered to customers.</font>           
+          <font size="2">All produced peptides in 元郁有限公司 have to be qualified through HPLC analysis and Mass Spectrum analysis. Synthesis peptides that are qualified through those testing criteria would be delivered to customers.</font>           
           </TD>     
         </TR>
         <TR>
@@ -102,7 +102,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         </TR>
         <TR>
           <TD valign="top" width="507" height="79">
-          <font size="2">MAP stands are Multiple Antigenic Peptide. Genesis Biotech Inc. provides several choices for MAP such as 4 branches asymmetric or Symmetric, and 8 branches asymmetric or symmetric. Therefore, it can enhance antigen by increasing peptide’s molecular weight. If we choose MAP as antigen, it is unnecessary to conjugate carrier protein.</font>           
+          <font size="2">MAP stands are Multiple Antigenic Peptide. 元郁有限公司 provides several choices for MAP such as 4 branches asymmetric or Symmetric, and 8 branches asymmetric or symmetric. Therefore, it can enhance antigen by increasing peptide’s molecular weight. If we choose MAP as antigen, it is unnecessary to conjugate carrier protein.</font>           
           </TD>     
         </TR>
         <TR>
@@ -119,7 +119,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         </TR>
         <TR>
           <TD valign="top" width="507" height="79">
-          <font size="2">Even the peptide of Genesis Biotech Inc. just has one animo acid, which can stimulate immune animal to produce high titer antibody by conjugating KLH. But we recommend you to choose a applicable peptide length about 8 -25 Amino acid for stimulating immuno-reaction..</font>           
+          <font size="2">Even the peptide of 元郁有限公司 just has one animo acid, which can stimulate immune animal to produce high titer antibody by conjugating KLH. But we recommend you to choose a applicable peptide length about 8 -25 Amino acid for stimulating immuno-reaction..</font>           
           </TD>     
         </TR>
         <TR>
@@ -149,14 +149,14 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
-          What many days could Genesis Biotech Inc. finish the synthesis of peptide?</b>        
+          What many days could 元郁有限公司 finish the synthesis of peptide?</b>        
                  
           </TD>     
         </TR>
         <TR>
           <TD valign="top" width="507" height="79">
           <font size="2">Regarding peptide products without purity process would take 10 working days to be produced. But, products with purity process would take about 14 working days. <br>                          
-          The duration of producing peptides could be varied to base on the complexity of peptides and requirements from customers. Customers would be given a notification about the production duration. However, Genesis Biotech reserves the rights to amend duration of a project.　　　　　　　　　　　　　　<br>During the synthesized stage, customer would be informed at any stage regarding to the progress of custom peptides and whether the products can be delivered to an earlier time or not.</font>                                      
+          The duration of producing peptides could be varied to base on the complexity of peptides and requirements from customers. Customers would be given a notification about the production duration. However, 元郁有限公司 reserves the rights to amend duration of a project.　　　　　　　　　　　　　　<br>During the synthesized stage, customer would be informed at any stage regarding to the progress of custom peptides and whether the products can be delivered to an earlier time or not.</font>                                      
           </TD>     
         </TR>
         <TR>
@@ -173,7 +173,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         </TR>
         <TR>
           <TD valign="top" width="507" height="79">
-          <font size="2">Peptide products of Genesis Biotech Inc. are in lyophilized powder form. Therefore, products could be shipped in different ways as followed:　　　　　　　　　　1.Delivered to customers through our sales force.<br>2.Home delivery (Condition: 1.delivery charge will be paid by Genesis Biotech Inc. 2 only limited on Taiwan island-wide).　　　　　　　　　　　　<br>3.In terms of overseas clients, finished products will be delivered through a third party logistics provider (i.e. FedEx). However, delivery charge will be applied and paid by clients in this case.</font>                                      
+          <font size="2">Peptide products of 元郁有限公司 are in lyophilized powder form. Therefore, products could be shipped in different ways as followed:　　　　　　　　　　1.Delivered to customers through our sales force.<br>2.Home delivery (Condition: 1.delivery charge will be paid by 元郁有限公司 2 only limited on Taiwan island-wide).　　　　　　　　　　　　<br>3.In terms of overseas clients, finished products will be delivered through a third party logistics provider (i.e. FedEx). However, delivery charge will be applied and paid by clients in this case.</font>                                      
           </TD>     
         </TR>
         <TR>
@@ -201,7 +201,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
-          What length of peptide can Genesis Biotech Inc. produce?</b>          
+          What length of peptide can 元郁有限公司 produce?</b>          
                  
           </TD>     
         </TR>
