@@ -258,8 +258,15 @@ a:hover { color: #246b00; text-decoration: underline; }
 .legacy-content table,
 .legacy-content table td,
 .legacy-content table th {
-    border: 1px solid #ddd;
+    /* 預設無邊框：多數 .md 的 table 是 layout 容器（PHP 站垂直堆疊用） */
+    border: 0;
     padding: 0.4rem 0.6rem;
+}
+/* 例外：國際分銷頁 3 欄資料表保留 1px 灰線（cell 分隔有意義） */
+.legacy-content table.distributors-table,
+.legacy-content table.distributors-table td,
+.legacy-content table.distributors-table th {
+    border: 1px solid #ddd;
 }
 /* lps 頁面：內容不需外框，覆寫 .legacy-content 內 table/td 邊框與 padding */
 .legacy-content .lps-shell table,
@@ -285,6 +292,9 @@ a:hover { color: #246b00; text-decoration: underline; }
     width: 33.33%;
     vertical-align: top;
 }
+
+/* 隱藏定位用 spacer.gif（8 個 .md 共 14 個）— 純空白定位元素 */
+.legacy-content img[src*="spacer"] { display: none; }
 
 /* PDF download link badge */
 .pdf-link {
