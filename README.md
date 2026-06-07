@@ -1,4 +1,4 @@
-# 元郁有限公司 — 維護手冊 (Hugo 版)
+# Genesis Biotech Inc. — 維護手冊 (Hugo 版)
 
 > 這個目錄是 **Hugo 靜態站**（取代舊 PHP 版本）。
 > 老 PHP 站備份在 `/home/dink/projects/genesisbio/old/_backup_pre-refactor/`，已不再維護。
@@ -132,7 +132,7 @@ echo "new_key: COA/new.pdf" >> data/coa.yaml
 ```toml
 [params]
   description = "..."
-  copyright = "元郁有限公司 Inc."
+  copyright = "Genesis Biotech Inc. Inc."
 ```
 
 ---

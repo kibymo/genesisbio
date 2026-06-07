@@ -19,7 +19,7 @@ page_id: protein  # nav 群組用，slug 用檔名
           
           
           
-          元郁有限公司</strong></font> sift several antigenic proteins from antibody library that we have developed by ourselves. Scientists can order article(s) for antibody-antigen positive control, antibody production and detection. All antigenic protein in listing have paired catalogue antibody products. Our R&amp;D group also uses gene engineer technology to producing biologically active proteins like growth fact.                    
+          Genesis Biotech Inc.</strong></font> sift several antigenic proteins from antibody library that we have developed by ourselves. Scientists can order article(s) for antibody-antigen positive control, antibody production and detection. All antigenic protein in listing have paired catalogue antibody products. Our R&amp;D group also uses gene engineer technology to producing biologically active proteins like growth fact.                    
           
           
           

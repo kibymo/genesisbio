@@ -99,7 +99,7 @@ ZH-TW;mso-bidi-language:AR-SA"><a href="/maps/"><font size="2">Multiple Antigeni
           </TD>
         </TR>
         <TR>
-          <TD valign="top" width="544" height="20" colspan="2"><font size="2" color="#006393">元郁有限公司 with excellent experienced R&amp;D team and advanced instruments offers the HPLC and Mass Spectrum analysis service of the end products.</font><br> 
+          <TD valign="top" width="544" height="20" colspan="2"><font size="2" color="#006393">Genesis Biotech Inc. with excellent experienced R&amp;D team and advanced instruments offers the HPLC and Mass Spectrum analysis service of the end products.</font><br> 
           
           
           </TD>

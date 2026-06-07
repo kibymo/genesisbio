@@ -9,13 +9,13 @@ page_id: faq  # nav 群組用，slug 用檔名
         
         <TR>
           <TD valign="top" width="507" height="21">
-          <b class="primaryHeader">Why                  do we choose 元郁有限公司?</b>                                                 
+          <b class="primaryHeader">Why                  do we choose Genesis Biotech Inc.?</b>                                                 
                  
           </TD>    
         </TR>        
         <TR>
           <TD valign="top" width="507" height="45">
-          <font size="2">Genesis  Biotech Inc. is different from other biotech companies which only acts as an intermediate agent to place orders for customers; 元郁有限公司 is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.　　　　　　　　　　　　　　　　　　<br>●Just provide peptide sequences: 元郁有限公司 can produce all of antibody products via epitope prediction, antigen design and peptide synthesis.　　　　　　　●Just provide target genes: We are able to process gene recombination, gene expression, protein purification and antibody preparation.                             
+          <font size="2">Genesis  Biotech Inc. is different from other biotech companies which only acts as an intermediate agent to place orders for customers; Genesis Biotech Inc. is also capable to provide a wide range of in-house biotech products and service as well as related technical supports and assistance.　　　　　　　　　　　　　　　　　　<br>●Just provide peptide sequences: Genesis Biotech Inc. can produce all of antibody products via epitope prediction, antigen design and peptide synthesis.　　　　　　　●Just provide target genes: We are able to process gene recombination, gene expression, protein purification and antibody preparation.                             
           </font>          
           </TD>     
         </TR>
@@ -70,7 +70,7 @@ page_id: faq  # nav 群組用，slug 用檔名
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
           How to prepare the antigen that is in SDS-PAGE before delivering                  to 
-          元郁有限公司?</b>         
+          Genesis Biotech Inc.?</b>         
                  
           </TD>     
         </TR>
@@ -151,7 +151,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">
-          How to control the quality of customers’ antibody in 元郁有限公司?</b>          
+          How to control the quality of customers’ antibody in Genesis Biotech Inc.?</b>          
                  
           </TD>     
         </TR>
@@ -171,7 +171,7 @@ page_id: faq  # nav 群組用，slug 用檔名
         <TR>
           <TD valign="top" width="507" height="21">
           <b class="primaryHeader">What advantages can the customer get from ordering 
-          antibody products of 元郁有限公司?</b>           
+          antibody products of Genesis Biotech Inc.?</b>           
                  
           </TD>     
         </TR>

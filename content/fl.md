@@ -13,7 +13,7 @@ page_id: peptide_synthesis  # nav 群組用，slug 用檔名
         </TR>
         <TR>
           <TD valign="top" width="413" height="44">
-          <font size="2"><font color="#6699FF" size="2"><b>元郁有限公司</b></font> offers a variety of high quality reactive fluorescent dyes for&nbsp;labeling peptides. These high quality stand-alone reagents can be usedby experienced&nbsp;researchers to readily label a variety of peptides. Labeled peptides can be used in a&nbsp;number of applications, such as immunological as fluorescence microscopy, etc.</font></TD>
+          <font size="2"><font color="#6699FF" size="2"><b>Genesis Biotech Inc.</b></font> offers a variety of high quality reactive fluorescent dyes for&nbsp;labeling peptides. These high quality stand-alone reagents can be usedby experienced&nbsp;researchers to readily label a variety of peptides. Labeled peptides can be used in a&nbsp;number of applications, such as immunological as fluorescence microscopy, etc.</font></TD>
      
           <TD valign="top" width="171" height="44">
           <img border="0" src="/flur1.jpg" width="167" height="72"></TD>
