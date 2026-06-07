@@ -1,10 +1,10 @@
 ---
-title: "international_distributors"
+title: "International Distributors"
 page_id: distributors  # nav 群組用，slug 用檔名
 ---
 
 {{< raw >}}
-<h1 class="page-title">international_distributors</h1>
+<h1 class="page-title">International Distributors</h1>
   <!-- sub-table 1 -->
     <TABLE class="distributors-table" cellSpacing=0 cellPadding=0 width="100%" border=0>
     <TBODY>
